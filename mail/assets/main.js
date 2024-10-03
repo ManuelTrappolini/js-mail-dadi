@@ -9,12 +9,14 @@ const regMail = [ 'mario.rossi@gmail.com', 'paolo.verdi@gmail.com'  ]
 let mail = prompt('Inserisci qui la tua mail')
 
 
-for(let i = 0; i < regMail.length; i++){
-    if(regMail[i] === mail ){
-        console.log('Benvenuto')
+for(let i = 0 ; i < regMail.length ; i++){
+    if(regMail.length[i] === mail ){
+        console.log('Benvenuto');
+        alert('Benvenuto');
 }
 else {
     console.log('Reinserisci');
+    alert('Reinserisci');
 }   
 }
 
