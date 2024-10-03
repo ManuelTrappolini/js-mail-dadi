@@ -10,7 +10,7 @@ let mail = prompt('Inserisci qui la tua mail')
 
 
 for(let i = 0 ; i < regMail.length ; i++){
-    if(regMail.length[i] === mail ){
+    if(regMail[i] === mail ){
         console.log('Benvenuto');
         alert('Benvenuto');
 }
