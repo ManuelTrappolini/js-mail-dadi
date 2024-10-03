@@ -9,7 +9,7 @@ console.log('it works');
 const regMail = [ 'mario.rossi@gmail.com', 'paolo.verdi@gmail.com','luca.bianchi@gmail.com', 'mimmo.forti@gmail.com'  ]
 let mail = prompt('Inserisci qui la tua mail')
 let message = 'Benvenuto'
-let negMessage = 'Reinserisci'
+let negMessage = 'Reinserisci la tua email'
 /* for(let i = 0 ; i < regMail.length ; i++){
 
 
