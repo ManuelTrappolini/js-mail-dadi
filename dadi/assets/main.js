@@ -15,19 +15,19 @@ if(randomNumbersUser > randomNumbersCpu){
     console.log(randomNumbersUser);
     console.log(randomNumbersCpu);
     console.log('User wins');
-    alert('Complimenti, hai Vinto!');
+    alert(`Complimenti, hai Vinto! Il tuo numero: ${randomNumbersUser} / Il numero del computer ${randomNumbersCpu}` );
 }
 //3. Uso la condizione else if con la quale se il numero del randomNumbersUser < randomNumbersCpu  vince la cpu e si stampa in console il messagio cpu wins
 else if(randomNumbersUser < randomNumbersCpu){
     console.log(randomNumbersUser);
     console.log(randomNumbersCpu);
     console.log('Cpu wins');
-    alert('Che peccato, hai Perso...')
+    alert(`Che peccato, hai Perso... Il tuo numero: ${randomNumbersUser} / Il numero del computer ${randomNumbersCpu}`)
 }
 //3. Uso la condizione else per il pareggio
 else{
     console.log(randomNumbersUser);
     console.log(randomNumbersCpu);
     console.log("It's a tie");
-    alert("E' un Pareggio!")
+    alert(`E' un Pareggio! Il tuo numero: ${randomNumbersUser} / Il numero del computer ${randomNumbersCpu}`)
 }

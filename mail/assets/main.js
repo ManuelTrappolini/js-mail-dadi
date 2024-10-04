@@ -10,19 +10,29 @@ const regMail = [ 'mario.rossi@gmail.com', 'paolo.verdi@gmail.com','luca.bianchi
 let mail = prompt('Inserisci qui la tua mail')
 let message = 'Benvenuto'
 let negMessage = 'Reinserisci la tua email'
+let canAccess = false
 /* for(let i = 0 ; i < regMail.length ; i++){
+    const thisParticipant = regMail[i]
 
 
+    if(thisParticipant === mail ){
+        canAccess = true
+        
+        break;
+    }
+     
+}  
 
-    if(regMail[i] === mail ){
-        console.log(message);
-        alert('Benvenuto');
 }
-    else {
+    if(canAccess = true){
+    console.log(message);
+        alert('Benvenuto');}
+
+    else{
     console.log(negMessage);
     alert('Reinserisci');
-}   
-} */
+    }
+*/
 
     if(regMail.includes(mail) ){
     console.log(message);
